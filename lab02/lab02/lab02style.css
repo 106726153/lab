@@ -1,0 +1,29 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0
+}
+
+.thingggg, .nig {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto
+}
+
+
+table {
+    text-align: left;
+    border: 10cap;
+}
+
+.TBH {
+    text-align: left;
+    float: left;
+}
+
+.TBH2 {
+    text-align: right;
+    float: right;
+}
