@@ -1,0 +1,253 @@
+
+body {
+  width: 1000px;
+  margin: 20px auto;
+  border: 3px solid black;
+  font-size: 13px;
+}
+
+header {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: purple;
+  background: lightgray;
+  border: 1px solid darkgray;
+  text-align: center;
+}
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+    color: black;
+    display: inline-block;
+}
+
+nav a:hover{
+    border-color: darkblue;
+    background-color: lightblue;
+}
+
+.menu {
+ display: inline-block;
+  margin: 0 5px 0px 0;  
+  background: var(--nav-bg);
+  font-size: 1rem;
+  padding: 0.5em;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+
+article {
+  display: flow-root;
+  padding: 0 30px 0 10px;
+  min-width: 30em;
+}
+
+article > h2 {
+  margin: 25px 0 0;
+  color: cadetblue
+}
+
+section h2 {
+  margin: 22px 0 8px;
+  color: cadetblue;
+}
+
+section h3 {
+  margin: 20px 0 8px;
+}
+
+p {
+  margin: 0 0 14px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  background: url('images/fade.jpg') repeat-x top left;
+  border: 5px inset purple;
+  border-radius: 14px;
+  box-shadow: 10px 10px 5px #aaaaaa
+}
+
+
+section:nth-of-type(2) {
+  clear: both;
+}
+
+#lists,
+#hyperlinks {
+  float: left;
+  width: 50%;
+}
+
+#tables,
+#images {
+  float: right;
+  width: 47%;
+}
+
+#lists,
+#tables,
+#hyperlinks,
+#images {
+  text-align: center;
+}
+
+#lists,
+#tables {
+  margin-top: 20px;
+}
+
+#lists h2,
+#tables h2,
+#hyperlinks h2,
+#images h2 {
+  margin-top: 0;
+}
+
+#hyperlinks {
+  clear: both;
+  float: left;
+}
+
+#images {
+
+  margin-top: 40px;
+  border: 3px solid #ccc;
+}
+
+ul, ol {
+  text-align: left;            
+  margin: 0 0 14px;
+  padding-left: 40px;
+}
+
+
+dl {
+  margin: 0 0 14px;
+  padding: 8px 6px 0;
+  overflow: hidden;        
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 40%;
+  text-align: right;
+  margin: 0 0 8px;
+}
+
+dd {
+  margin: 0 0 8px 42%;
+  text-align: left;
+}
+
+table {
+  margin: 0 auto;
+}
+
+caption {
+  padding-bottom: 4px;
+}
+
+th, td {
+  padding: 1px 3px;
+  text-align: left;
+}
+
+thead th,
+tfoot th {
+  text-align: center;
+}
+
+figure {
+  width: 90%;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+  padding: 0 2px;
+}
+
+figure img {
+  display: block;
+  width: 160px;
+  margin: 0 auto 10px;
+}
+
+footer {
+  margin: 20px 12px 0;
+  padding-bottom: 20px;
+  text-align: center;
+  border-top: 4px double gray;
+  clear:both;
+}
+
+footer p {
+  display: inline-block;
+  width: 33%;
+}
+
+footer p:first-child { float:left; }
+
+footer p:nth-child(2) {text-align: center; }
+
+footer p:last-child {float:right; text-align:right; }
+
+#hyperlinks a {
+    color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px double black;
+  background: white;
+  margin: auto;
+}
+
+th, td {
+  border: 5px double black;
+  padding: 2px 4px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+caption {
+  caption-side: top;
+  text-align: cneter;
+  font-size: 0.95rem;
+  margin-bottom: 3px;
+}
+
+th {
+  background: white;
+  font-weight: 700;
+}
+
+
+tfoot th,
+tfoot td {
+  font-weight: 700;
+}
+
+#lists {
+  float: left
+}
+
+ol, ul, dl {
+  text-align: left;
+}
+
+.special {
+  color: orange;
+  font-weight: 700;
+}
+
+.square {
+    list-style-type:square;
+}
